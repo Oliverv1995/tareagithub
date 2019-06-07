@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::get('/ingresar', 'controlformulario@ingresar');
 Route::get('/mostrar', 'controlformulario@mostrar');
+Route::post('/mostrar', 'controlformulario@ingresar2');
